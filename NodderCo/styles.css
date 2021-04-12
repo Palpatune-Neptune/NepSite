@@ -1,0 +1,17 @@
+#header{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#royalEmblem{
+    top: 0px;
+    float: left;
+    position: absolute;
+    width: 175px;
+}
+
+body{
+    background-image: url("Images/Neptune_BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">  
+    </head>
+    <body>
+        <div id="header">
+            <h1>Welcome Present and Future Members <br> To the Darkside</h1>
+            <h3>WELCOME ALL NODDERS</h3>
+            <script>
+                function changeImage(){
+                    var Image = document.getElementById("Nodder");
+                    if (Image.src.match("Images/hyper_nod-1.gif")) {
+                        Image.src = "Images/nod_inverted_hellish.gif"
+                    }
+                    else{
+                        Image.src = "Images/hyper_nod-1.gif"
+                    } 
+                }                  
+            </script>
+            <img id="Nodder" src="Images/hyper_nod-1.gif" alt="Royal Nodding" onclick="changeImage()">
+            <h2 id="text">Bow before her Majesty and Protector of the Kind <br> <i>The First Nodder HMS Neptune</i></h2>
+        </div>
+        <div>
+            <a href="https://azurlane.koumakan.jp/HMS_Neptune"><img id="royalEmblem" src="Images/Royal_Navy.png" alt="Royal_Navy"></a>
+        </div>
+    </body>
+</html>
