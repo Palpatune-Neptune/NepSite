@@ -1,6 +1,10 @@
 #header{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+    color: grey ;
+}
+#text{
+    color: lightgoldenrodyellow;
 }
 
 #royalEmblem{
@@ -9,9 +13,26 @@
     position: absolute;
     width: 175px;
 }
+#detailsNodderCo{
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    margin-top: 100px;
+    color: 	#FFD700;
+}
+
+
+
 
 body{
     background-image: url("Images/Neptune_BG.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+
+.hidden{
+    display:none;
+}
+
