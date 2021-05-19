@@ -1,0 +1,64 @@
+#header{
+    text-align: center;
+   
+}
+
+
+
+
+
+
+#table{
+    padding-top: 125px;
+}
+
+#table1{
+    margin: auto;
+    
+}
+
+#image{
+    float: left;
+    padding-top: 45px;
+    
+}
+
+#glory{
+    width: 88%;
+    height: 79%;
+    box-shadow: 0 0 100px  #ffd700;
+}
+
+
+#footer{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+/* Common Operators*/
+
+
+th{
+    text-align: center;
+}
+
+td{
+    padding-left: 37px;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+tr,th,td{
+    font-size: 40px;
+}
+
+body{
+    background-image: url(Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
