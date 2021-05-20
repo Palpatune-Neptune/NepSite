@@ -58,7 +58,7 @@ tr,th,td{
 }
 
 body{
-    background-image: url(Images/background.jpeg);
+    background-image: url(TeachingImage/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
