@@ -2,10 +2,18 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 800px;
 }
 
+.temp{
+    margin-left: 80%;
+    margin-top: -24%;
 
+
+
+
+
+}
 #header{
     text-align:  center;
     background-image: url('Images Index/space.jpg');
@@ -39,7 +47,6 @@
 }
 
 .links{
-    
     color: inherit;
 }
 
